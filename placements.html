@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>placements</title>
+    <style>
+        pre{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            padding-left: 2%;
+        }
+        .n1{
+            padding-left: 10%;
+        }
+        fieldset{
+            border-radius: 30px;
+            width: 60%;
+            border: 2px solid black;
+            background-color: aqua;
+        }
+        .a1{
+            padding-left: 800px;
+            font-size: 18px;
+            justify-content: center;
+            align-items: center;
+            margin-top: -340px;
+        }
+        .extra{
+            display: none;
+        }
+        input[type="checkbox"]
+        {
+            height: 2em;
+            display: block;
+            appearance: none;
+        }
+        label{
+            position: relative;
+            padding: 1em;
+            background-color: rgb(56, 79, 234);
+            color: rgb(252, 255, 255);
+            cursor: pointer;
+
+        }
+        label::before
+        {
+            content: "View More";
+        }
+        input[type="checkbox"]:checked ~ label::before{
+            content: "View Less";
+        }
+        .dot:has(~ input[type="checkbox"]:checked){
+            display: none;
+        }
+        .extra:has(~ input[type="checkbox"]:checked)
+        {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1><b>Placements</b></h1>
+    <img src="slide-02.jpg" height="40%" width="80%" alt="">
+</center>
+<pre><b><font size="6px">Dreams Come True @ SVCE</font></b></pre>
+<pre><font size="4px">
+    The Career Development Centre (CDC) acts as a bridge to build a fruitful symbiotic relationship 
+    and association between an academic institution and the corporate world. The institute manages 
+    students placement/internship through CDC and facilitates students to prepare, perform, take up 
+    and excel in their leadership career in the best possible manner. CDC always works at its best to 
+    attain the students dreams in respect of their career choice as well as to cope with the demands 
+    of industries by offering multifaceted talents of great expertise.
+
+    In 2022-23 alone, CDC brought more than 100+ companies onto campus for placements. Last year, the 
+    highest offer made was 60 lakhs per year by Google. Over recent years, many reputed companies such 
+    as Amazon, Google, Cisco, Wells Fargo, Walmart, DBS Asia, Yugabyte DB, Thought Works, Mindtree,
+    HSBS, Yokogawa, Tejas Networks, Virtusa, Darwinbox, Meil, Hashedin, Infor, Infosys, Cognizant, 
+    Wipro, Accenture, Capgemini, Deloitte, TCS, IBM, HCL, Tech Mahindra, Hexaware have participated
+    in hiring.</font>
+</pre>
+<center class="a1">
+<fieldset>
+<p class="n1">Contact Info</p>
+<p  class="n1">DR. K Delhi Babu</p>
+<p  class="n1">Vice President, CDC</p><br>
+<p  class="n1">vp-cdc@svce.edu.in</p><br>
+<p  class="n1">Mr. M. Venugopal</p>
+<p  class="n1">Liaisoning & Placement Manager</p><br>
+<p  class="n1">venugopal.marella@svce.edu.in</p>
+</fieldset>
+</center>
+<center><h1><b>Celebrating<font color="red"> 2100+</font> Placements in 2022</b></h1></center><br> 
+<center>
+    <p><h2><u>OUR RECRUITERS</u></h2></p>
+    <div class="container">
+        <p class="original">
+            <img src="P1.png" height="10%" width="20%" alt="">
+            <img src="P2.png" height="10%"width="20%" alt=""> 
+            <img src="P3.png" height="10%" width="20%" alt="">
+            <img src="P4.png" height="10%" width="20%" alt=""> 
+            <img src="P5.png" height="10%" width="20%" alt=""> 
+            <img src="P6.png" height="10%" width="20%" alt="">
+            <img src="p21.png" height="10%" width="20%" alt=""> 
+            <img src="p22.png" height="10%" width="20%" alt="">   
+            <img src="p26.jpg" height="10%" width="20%" alt="">
+            <img src="p27.png" height="6%" width="15%" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="p28.png" height="9%" width="17%" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="p29.png" height="7%" width="16%" alt="">  
+        </p>
+        <p class="extra">
+            <img src="P7.png" height="10%" width="20%" alt="">
+            <img src="wiley.jpg" height="10%" width="20%" alt="">
+            <img src="P9.png" height="10%" width="20%" alt="">
+            <img src="mind.jpg" height="10%" width="20%" alt="">
+            <img src="P11.png" height="10%" width="20%" alt="">
+            <img src="P8.png" height="10%" width="20%" alt="">
+            <img src="p23.jpg" height="10%" width="20%" alt=""> 
+            <img src="p24.jpg" height="10%" width="20%" alt=""> 
+        </p>
+        <input type="checkbox" id="btn"/>
+        <label for="btn"></label>
+
+    </div>
+    
+</center>
+</body>
+</html>
